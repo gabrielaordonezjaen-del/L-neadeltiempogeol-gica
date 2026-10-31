@@ -89,6 +89,51 @@ display: flex;
     gap: 4%;
 }
 
+.instrucciones {
+    margin: 2%;
+    width: 60%;
+    height: auto;
+    min-width: 0;
+    text-align: center;
+    font-size: 14px;
+    font-color: #816446;
+    display: block;
+    background-color: #ceae6f;
+    border: 2px solid #a8875c;
+    shadow-box: 0px 5px 20px rgba(75, 53, 30, 0.15);
+}
+
+.instrucciones {
+    max-width: 650px;
+    width: 90%;
+    margin: 35px auto;
+    padding: 22px 30px;
+
+    background: #eee0bd;
+    border: 2px solid #a8895e;
+    outline: 1px solid #c6a979;
+    outline-offset: -7px;
+
+    border-radius: 5px;
+    box-shadow: 3px 5px 12px rgba(75, 55, 30, 0.18);
+
+    text-align: center;
+    color: #66513a;
+}
+
+.instrucciones h2 {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    color: #795d3c;
+    margin: 0 0 12px;
+}
+
+.instrucciones p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
 /* CONTENEDOR GENERAL */
 .visor {
     display: flex;
