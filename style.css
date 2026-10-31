@@ -181,3 +181,12 @@ display: flex;
 .flechas button:hover {
     background-color: #b18b5e;
 }
+
+#ventanaTiempo a {
+    display: block;
+    cursor: pointer;
+}
+
+#ventanaTiempo a img {
+    cursor: pointer;
+}
