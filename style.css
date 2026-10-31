@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{ 
+    margin: 0;
+    background-color: #f0e5cf;
+    color: #51402f;
+    font-family: Georgia, serif;
+}
+
+.página {
+    width: 90%;
+    max-width: 1400px;
+    margin: 15% auto;
+    padding: 12%;
+    background-color: #f5eddd;
+    border: 3px solid #b69b70;
+    box-shadow: 0px 5px 20px rgba(75, 53, 30, 0.15);
+    overflow: hidden;
+    background-color: #f5f1e2;
+    box-shadow: 0px 5px 20px rgba(75, 53, 30, 0.15);
+
+}
+
+.separador {
+    width: 70%;
+    height: 2px;
+    margin: 30px auto;
+    margin-top: -0.5%;
+    background-color: #aa875d;
+    position: relative;
+}
+
+.separador::after {
+    content: "❧";
+    position: absolute;
+    left: 48%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5eddd;
+    color: #99744e;
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+.Título {
+    justify-content: center;
+    width: 105%;
+    height: auto;
+    
+}
+
+.Introducción {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.Info {
+    transition: transform 0.3 ease;
+    width: calc(60% - 10px);
+    height: auto;
+    min-width: 0;
+}
+
+.Presentación {
+    width: calc(60% - 10px);
+    height: auto;
+    min-width: 0;
+}
+
+
+
+/* CONTENEDOR GENERAL */
+.visor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+/* VENTANA POR LA QUE SE VE LA IMAGEN */
+.ventana {
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    border: 3px solid #a8875c;
+    border-radius: 8px;
+    background-color: #e9ddc5;
+}
+
+/* IMAGEN LARGA */
+.linea-tiempo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* FLECHAS */
+.flechas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.flechas button {
+    background-color: #8b7355;
+    color: #fff8e9;
+    border: 1px solid #6e573e;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.flechas button:hover {
+    background-color: #b18b5e;
+}

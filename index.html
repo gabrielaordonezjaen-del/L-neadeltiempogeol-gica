@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="página">
+        <img src="Título.png" class="Título">
+        
+     <div class="separador">
+        
+     </div>
+     <div class="Introducción">
+        <img src="Presentación.png">
+        <img src="Info.png">
+     </div>
+
+<div class=" línea y bibliografía">
+     <div class="social">
+        <h1> Bibliografía</h1>
+        <a href= ""> Instagram</a>
+           <p class="Nombre">Red Historia</p>
+        <a href= "https://whatsapp.com/channel/0029VbAiFSZ9Gv7ccvythv18"> WhatsApp</a>
+           <p class="Nombre">Museo de Geología Universidad de Oviedo</p>
+    </div>
+<div class="visor">
+
+    <div class="ventana" id="ventanaTiempo">
+        <img src="Línea del tiempo.jpg"
+             alt="Línea del tiempo geológico"
+             class="linea-tiempo">
+    </div>
+
+    <div class="flechas">
+        <button onclick="subir()">▲</button>
+        <button onclick="bajar()">▼</button>
+    </div>
+
+</div>
+
+
+    </main>
+
+<script>
+    function subir() {
+        document.getElementById("ventanaTiempo")
+            .scrollBy({ top: -150, behavior: "smooth" });
+    }
+
+    function bajar() {
+        document.getElementById("ventanaTiempo")
+            .scrollBy({ top: 150, behavior: "smooth" });
+    }
+</script>
+
+<a href="https://canva.link/wuuq5bog1cgaesi" target="_blank">
+    <img src="Línea del tiempo.jpg" alt="Fanerozoico" class="linea-tiempo">
+</a>
+
+
+</body>
